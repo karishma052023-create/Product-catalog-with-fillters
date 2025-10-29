@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Catalog with Filters</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Product Catalog</h1>
+  </header>
+
+  <section class="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="electronics">Electronics</button>
+    <button class="filter-btn" data-filter="clothing">Clothing</button>
+    <button class="filter-btn" data-filter="home">Home</button>
+  </section>
+
+  <section class="catalog">
+    <div class="product" data-category="electronics">
+      <img src="https://via.placeholder.com/150" alt="Laptop">
+      <h3>Laptop</h3>
+      <p>$899</p>
+    </div>
+    <div class="product" data-category="clothing">
+      <img src="https://via.placeholder.com/150" alt="T-Shirt">
+      <h3>T-Shirt</h3>
+      <p>$19</p>
+    </div>
+    <div class="product" data-category="home">
+      <img src="https://via.placeholder.com/150" alt="Lamp">
+      <h3>Lamp</h3>
+      <p>$49</p>
+    </div>
+    <div class="product" data-category="electronics">
+      <img src="https://via.placeholder.com/150" alt="Smartphone">
+      <h3>Smartphone</h3>
+      <p>$699</p>
+    </div>
+    <div class="product" data-category="clothing">
+      <img src="https://via.placeholder.com/150" alt="Jacket">
+      <h3>Jacket</h3>
+      <p>$59</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
